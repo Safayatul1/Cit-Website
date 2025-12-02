@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Safayatul Islam | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="home-hero">
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+
+        <!-- Hover dropdown stays the same -->
+        <li class="has-dropdown">
+          <a href="projects.html">Projects</a>
+          <ul class="dropdown">
+            <li><a href="projects.html#dashboards">Dashboards</a></li>
+            <li><a href="projects.html#sql">SQL Analyses</a></li>
+            <li><a href="projects.html#case-studies">Current Projects</a></li>
+          </ul>
+        </li>
+
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO (Part 1) -->
+  <section class="hero hero-banner">
+    <div class="hero-inner">
+      <h1 id="hero-title" class="type-target"
+          data-lines='["Hi!","I am","Safayatul Islam."]'
+          aria-label="Hi! I am Safayatul Islam.">
+      </h1>
+
+      <!-- Now forced onto its own line, centered -->
+      <p id="hero-subtitle" class="type-target subtitle"
+         data-lines='["Student from California State University Northridge","Major: Computer Information Technology"]'
+         aria-label="Student from California State University Northridge. Major: Computer Information Technology">
+      </p>
+    </div>
+  </section>
+
+  <!-- ABOUT (Part 2) -->
+  <section id="about" class="section section-light reveal" data-reveal="0">
+    <h2>About Me...</h2>
+    <p>
+      Detail oriented Financial &amp; Data Analyst with over two years of experience in financial
+      reporting, budgeting, and operational analysis within hospitality and academic project
+      environments. Skilled in SQL, Power BI, Python, and Excel, with a proven ability to develop
+      dashboards, conduct variance and rate analysis, and build accurate forecasts that drive
+      strategic decision making. Strong background in ensuring financial accuracy, compliance with
+      reporting standards, and supporting cross-functional teams to achieve organizational goals.
+      Experienced in translating complex data into actionable insights, streamlining workflows, and
+      presenting results to stakeholders. Adept at balancing technical expertise with business
+      acumen to deliver solutions that enhance efficiency, reduce costs, and support long-term
+      growth.
+    </p>
+  </section>
+
+  <!-- SKILLS (Part 3) -->
+  <section id="skills" class="section section-dark reveal" data-reveal="0">
+    <h2>Skills...</h2>
+
+    <div class="skill reveal" data-reveal="50">
+      <span class="skill-label">🐍 Python</span>
+      <div class="bar"><span class="fill" data-target="95"></span></div>
+      <span class="pct">95%</span>
+    </div>
+
+    <div class="skill reveal" data-reveal="100">
+      <span class="skill-label">🗄️ SQL</span>
+      <div class="bar"><span class="fill" data-target="90"></span></div>
+      <span class="pct">90%</span>
+    </div>
+
+    <div class="skill reveal" data-reveal="150">
+      <span class="skill-label">📊 Power BI</span>
+      <div class="bar"><span class="fill" data-target="90"></span></div>
+      <span class="pct">90%</span>
+    </div>
+
+    <div class="skill reveal" data-reveal="200">
+      <span class="skill-label">📈 Excel</span>
+      <div class="bar"><span class="fill" data-target="90"></span></div>
+      <span class="pct">90%</span>
+    </div>
+
+    <div class="skill reveal" data-reveal="250">
+      <span class="skill-label">🔷 Tableau</span>
+      <div class="bar"><span class="fill" data-target="85"></span></div>
+      <span class="pct">85%</span>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO (Part 4) -->
+  <section id="portfolio" class="section section-grid reveal" data-reveal="0">
+    <h2>Portfolio</h2>
+    <div class="cards">
+      <a class="card reveal" data-reveal="50" href="projects.html#dashboards">
+        <div class="thumb thumb-1"></div>
+        <h3>Sales Dashboard</h3>
+        <p>Retail performance (2014–2017): growth +20%, profit +14% with Excel &amp; Power BI.</p>
+        <span class="cta">View details →</span>
+      </a>
+
+      <a class="card reveal" data-reveal="100" href="projects.html#sql">
+        <div class="thumb thumb-2"></div>
+        <h3>Restaurant Order Analysis</h3>
+        <p>SQL optimization + revenue trends across states and product categories.</p>
+        <span class="cta">View details →</span>
+      </a>
+
+      <a class="card reveal" data-reveal="150" href="projects.html#case-studies">
+        <div class="thumb thumb-3"></div>
+        <h3>Healthcare Insurance Analysis</h3>
+        <p>Python (Pandas, Matplotlib): 1,338 records, outliers &amp; risk factors.</p>
+        <span class="cta">View details →</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER (Part 5) -->
+  <footer>
+    <p>© 2025 Safayatul Islam</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
